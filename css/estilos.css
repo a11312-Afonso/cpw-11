@@ -18,3 +18,11 @@ label {
   color: #00ADB5;
 }
  
+
+.cartão {
+  background-color: #393E46;
+  padding: 32px;
+  margin-bottom: 16px;
+  border-radius: 60px;
+  border: 8px solid #00ADB5;
+}
