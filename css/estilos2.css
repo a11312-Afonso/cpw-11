@@ -1,0 +1,13 @@
+body { 
+    font-family: Arial, sans-serif;
+    margin: 24px; 
+     } 
+.sessao-info, 
+.sessao-material {
+     padding: 16px;
+     border: 1px solid #789;
+     background: #edf4fa; 
+    }
+.sessao {display: flex; flex-direction: row; flex-wrap: nowrap; gap: 24px;} 
+.sessao-info {display: flex; flex-direction: row; flex-wrap: nowrap; gap: 24px;} 
+.sessao-material {display: flex; flex-direction: row; flex-wrap: nowrap; gap: 24px;}
