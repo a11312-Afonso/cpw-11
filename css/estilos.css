@@ -1,4 +1,3 @@
-
 body {
   background-color: #222831;
   color: #EEEEEE;
@@ -15,12 +14,13 @@ h3 {
 }
 
 li {
-  color: #EEEEEE;}
+  color: #EEEEEE;
+}
 
 label {
   color: #00ADB5;
 }
- 
+
 a {
   color: #00ADB5;
 }
@@ -39,5 +39,35 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
-  height: 50%; 
+  height: 50%;
+}
+
+
+@media (max-width: 700px) {
+.sessao {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: stretch;
+}
+
+.sessao-info {
+  flex: 1 1 200px;
+  padding-left: 20px;
+}
+
+.sessao-material {
+  flex: 2 1 200px;
+  
+  padding-left: 20px;
+}
+
+.sessao-info,
+.sessao-material {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  box-sizing: border-box;
+  margin: 0;
+  flex-basis: auto;
+}
 }
